@@ -19,7 +19,7 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgid "token"
-msgstr ""
+msgstr "жетон"
 
 msgid "+"
 msgstr ""
@@ -133,13 +133,13 @@ msgid "1000000000000000000"
 msgstr ""
 
 msgid "Known tokens are:"
-msgstr ""
+msgstr "Известные токены:"
 
 msgid "Unknown token:"
-msgstr ""
+msgstr "Неизвестный токен"
 
 msgid "Ignored"
-msgstr ""
+msgstr "Игнорируется"
 
 msgid "Interval"
-msgstr ""
+msgstr "Интервал"

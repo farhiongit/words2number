@@ -20,7 +20,7 @@ po/%/LC_MESSAGES/l2d_i18n.mo: po/%.po
 .PHONY: TU_%
 
 ## ----- Modify below
-#l2d_i18n: CFLAGS+=-DTRACE    # uncomment and run 'make -B l2d_i18n' to activate traces during execution.
+l2d_i18n: CFLAGS+=-DTRACE    # comment or uncomment and run 'make -B l2d_i18n' to activate or desactivate traces during execution.
 
 # To support a new language: 1. add a unit tests block TU_ll_CC below (where ll is a language code and CC is a country code),
 # 2. run make, 3. fill in the newly created '.po' file as needed, and 4. rerun make.

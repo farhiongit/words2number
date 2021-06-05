@@ -46,7 +46,7 @@
 #  define TRACE(...) snprintf (0, 0, __VA_ARGS__)
 #else
 #  undef TRACE
-#  define TRACE(...) fprintf(stderr, __VA_ARGS__)
+#  define TRACE(...) fprintf(stderr, "# " __VA_ARGS__)
 #endif
 
 #define ADD_OPS \
@@ -90,7 +90,7 @@ convert_to_number (unsigned long long int multiplier, signed long long int *toke
         TRACE ("%zi: ... %s[%zu] = %'lli" eol, depth + 1, _("token"), nb_tokens - current_index - 1, read_token);
       else
         TRACE ("%zi: ... %s[%zu]" eol, depth + 1, _("token"), nb_tokens - current_index - 1);
-      if (nb_tokens == current_index + 1 || (tokens[nb_tokens - current_index - 2] >= 0 // Compare a signed positive value with an unsigned value
+      if (nb_tokens == current_index + 1 || (tokens[nb_tokens - current_index - 2] >= 0 // Allow to compare a signed positive value with an unsigned value
                                              && tokens[nb_tokens - current_index - 2] >= current_multiplier))
       {                         // We leave a multiplicative group
         unsigned long long int subgroup =
@@ -280,8 +280,8 @@ main (int argc, char **argv)
   textdomain (PACKAGE);
 #endif
 
-  // Maximum value is 18 446 744 073 709 551 615 for 64 bits system (test with:
-  TRACE ("%s: [%'lu ; %'lu]" eol, _("Interval"), (unsigned long int) 0, (unsigned long int) (~0));
+  // Maximum value is 18 446 744 073 709 551 615 for 64 bits system
+  TRACE ("%s: [%'llu ; %'llu]" eol, _("Interval"), (unsigned long long int) 0, ~((unsigned long long int)0));
 
   if (argc <= 1)
     return EXIT_FAILURE;

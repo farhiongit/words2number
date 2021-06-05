@@ -1,0 +1,144 @@
+# Portuguese translations for l package.
+# Copyright (C) 2021 THE l'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the l package.
+# laurent <lfarhi@sfr.fr>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: l 2d_i18n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-04 21:10+0200\n"
+"PO-Revision-Date: 2021-06-04 19:32+0200\n"
+"Last-Translator: laurent <lfarhi@sfr.fr>\n"
+"Language-Team: Portuguese\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "token"
+msgstr "símbolo"
+
+msgid "+"
+msgstr "e"
+
+msgid "0"
+msgstr "zero"
+
+msgid "1"
+msgstr "um"
+
+msgid "2"
+msgstr "dois;du"
+
+msgid "3"
+msgstr "três;tre"
+
+msgid "4"
+msgstr "quatro"
+
+msgid "5"
+msgstr "cinco"
+
+msgid "6"
+msgstr "seis"
+
+msgid "7"
+msgstr "sete"
+
+msgid "8"
+msgstr "oito"
+
+msgid "9"
+msgstr "nove"
+
+msgid "10"
+msgstr "dez"
+
+msgid "11"
+msgstr "onze"
+
+msgid "12"
+msgstr "doze"
+
+msgid "13"
+msgstr "treze"
+
+msgid "14"
+msgstr "catorze"
+
+msgid "15"
+msgstr "quinze"
+
+msgid "16"
+msgstr "dezasseis"
+
+msgid "17"
+msgstr "dezassete"
+
+msgid "18"
+msgstr ""
+
+msgid "19"
+msgstr "dezanove"
+
+msgid "20"
+msgstr "vinte"
+
+msgid "30"
+msgstr "trinta"
+
+msgid "40"
+msgstr "quarenta"
+
+msgid "50"
+msgstr "cinquenta"
+
+msgid "60"
+msgstr "sessenta"
+
+msgid "70"
+msgstr "setenta"
+
+msgid "80"
+msgstr "oitenta"
+
+msgid "90"
+msgstr "noventa"
+
+msgid "100"
+msgstr "cem;centos;zentos"
+
+msgid "500"
+msgstr "quinhentos"
+
+msgid "1000"
+msgstr "mil"
+
+msgid "1000000"
+msgstr "milhão;milhões"
+
+msgid "1000000000"
+msgstr ""
+
+msgid "1000000000000"
+msgstr ""
+
+msgid "1000000000000000"
+msgstr ""
+
+msgid "1000000000000000000"
+msgstr ""
+
+msgid "Known tokens are:"
+msgstr "Tokens conhecidos são :"
+
+msgid "Unknown token:"
+msgstr "Token desconhecido :"
+
+msgid "Ignored"
+msgstr "Ignorado"
+
+msgid "Interval"
+msgstr "Intervalo"

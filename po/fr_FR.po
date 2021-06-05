@@ -1,0 +1,145 @@
+# French translations for PACKAGE package
+# Traductions françaises du paquet PACKAGE.
+# Copyright (C) 2021 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# laurent <lfarhi@sfr.fr>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-04 21:10+0200\n"
+"PO-Revision-Date: 2021-05-29 12:25+0200\n"
+"Last-Translator: laurent <lfarhi@sfr.fr>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "token"
+msgstr "mot"
+
+msgid "+"
+msgstr "et"
+
+msgid "0"
+msgstr "zéro"
+
+msgid "1"
+msgstr "un;une"
+
+msgid "2"
+msgstr "deux"
+
+msgid "3"
+msgstr "trois"
+
+msgid "4"
+msgstr "quatre"
+
+msgid "5"
+msgstr "cinq"
+
+msgid "6"
+msgstr "six"
+
+msgid "7"
+msgstr "sept"
+
+msgid "8"
+msgstr "huit"
+
+msgid "9"
+msgstr "neuf"
+
+msgid "10"
+msgstr "dix"
+
+msgid "11"
+msgstr "onze"
+
+msgid "12"
+msgstr "douze"
+
+msgid "13"
+msgstr "treize"
+
+msgid "14"
+msgstr "quatorze"
+
+msgid "15"
+msgstr "quinze"
+
+msgid "16"
+msgstr "seize"
+
+msgid "17"
+msgstr ""
+
+msgid "18"
+msgstr ""
+
+msgid "19"
+msgstr ""
+
+msgid "20"
+msgstr "vingt;vingts"
+
+msgid "30"
+msgstr "trente"
+
+msgid "40"
+msgstr "quarante"
+
+msgid "50"
+msgstr "cinquante"
+
+msgid "60"
+msgstr "soixante"
+
+msgid "70"
+msgstr "septante"
+
+msgid "80"
+msgstr "octante;huitante"
+
+msgid "90"
+msgstr "nonante"
+
+msgid "100"
+msgstr "cent;cents"
+
+msgid "500"
+msgstr ""
+
+msgid "1000"
+msgstr "mil;mille"
+
+msgid "1000000"
+msgstr "million;millions"
+
+msgid "1000000000"
+msgstr "milliard;milliards"
+
+msgid "1000000000000"
+msgstr ""
+
+msgid "1000000000000000"
+msgstr ""
+
+msgid "1000000000000000000"
+msgstr ""
+
+msgid "Known tokens are:"
+msgstr "Les mots reconnus sont :"
+
+msgid "Unknown token:"
+msgstr "Mot inconnu :"
+
+msgid "Ignored"
+msgstr "Ignoré"
+
+msgid "Interval"
+msgstr "Intervalle"

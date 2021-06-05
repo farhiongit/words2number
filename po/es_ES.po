@@ -1,0 +1,144 @@
+# Spanish translations for l package.
+# Copyright (C) 2021 THE l'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the l package.
+# laurent <lfarhi@sfr.fr>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: l 2d_i18n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-04 21:10+0200\n"
+"PO-Revision-Date: 2021-06-04 12:57+0200\n"
+"Last-Translator: laurent <lfarhi@sfr.fr>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "token"
+msgstr "token"
+
+msgid "+"
+msgstr "y;i"
+
+msgid "0"
+msgstr "cero"
+
+msgid "1"
+msgstr "un;uno;una"
+
+msgid "2"
+msgstr "dos"
+
+msgid "3"
+msgstr "tres"
+
+msgid "4"
+msgstr "cuatro"
+
+msgid "5"
+msgstr "cinco"
+
+msgid "6"
+msgstr "seis;séis"
+
+msgid "7"
+msgstr "siete;sete"
+
+msgid "8"
+msgstr "ocho"
+
+msgid "9"
+msgstr "nueve;nove"
+
+msgid "10"
+msgstr "diez;diec"
+
+msgid "11"
+msgstr "once"
+
+msgid "12"
+msgstr "doce"
+
+msgid "13"
+msgstr "trece"
+
+msgid "14"
+msgstr "catorce"
+
+msgid "15"
+msgstr "quince"
+
+msgid "16"
+msgstr ""
+
+msgid "17"
+msgstr ""
+
+msgid "18"
+msgstr ""
+
+msgid "19"
+msgstr ""
+
+msgid "20"
+msgstr "veinte;veint"
+
+msgid "30"
+msgstr "treinta"
+
+msgid "40"
+msgstr "cuarenta"
+
+msgid "50"
+msgstr "cincuenta"
+
+msgid "60"
+msgstr "sesenta"
+
+msgid "70"
+msgstr "setenta"
+
+msgid "80"
+msgstr "ochenta"
+
+msgid "90"
+msgstr "noventa"
+
+msgid "100"
+msgstr "cien;cientos"
+
+msgid "500"
+msgstr "quinientos"
+
+msgid "1000"
+msgstr "mil"
+
+msgid "1000000"
+msgstr "millón;millones"
+
+msgid "1000000000"
+msgstr ""
+
+msgid "1000000000000"
+msgstr ""
+
+msgid "1000000000000000"
+msgstr ""
+
+msgid "1000000000000000000"
+msgstr ""
+
+msgid "Known tokens are:"
+msgstr "Los tokens conocidos son :"
+
+msgid "Unknown token:"
+msgstr "Token desconocido :"
+
+msgid "Ignored"
+msgstr "Ignorado"
+
+msgid "Interval"
+msgstr "Intervalo"

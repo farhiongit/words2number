@@ -53,5 +53,14 @@ TU_pt_PT: LOCALE=pt_PT
 TU_pt_PT: l2d_i18n po/pt_PT/LC_MESSAGES/l2d_i18n.mo
 	LANGUAGE="$(LOCALE)" "./$<" treze milhões setecentos e oitenta e quatro mil trezentos e sessenta e três  # 13784363
 
-TU: TU_fr_FR TU_it_IT TU_de_DE TU_en_GB TU_es_ES TU_pt_PT
+TU_dk_DK: LOCALE=dk_DK
+TU_dk_DK: l2d_i18n po/dk_DK/LC_MESSAGES/l2d_i18n.mo
+	LANGUAGE="$(LOCALE)" "./$<" tretten millioner syv hundrede og fireogfirs tusinde tre hundrede og treogtres  # 13784363
+
+TU_ru_RU: LOCALE=ru_RU
+TU_ru_RU: l2d_i18n po/ru_RU/LC_MESSAGES/l2d_i18n.mo
+	LANGUAGE="$(LOCALE)" "./$<" три тысячи, четыреста пятьдесят шесть
+	LANGUAGE="$(LOCALE)" "./$<" тринадцать миллион, семьсот восемьдесят четыре тысячи, триста шестьдесят три  # 13784363
+
+TU: TU_fr_FR TU_it_IT TU_de_DE TU_en_GB TU_es_ES TU_pt_PT TU_dk_DK TU_ru_RU
 

@@ -1,0 +1,143 @@
+# Language dk translations for l package.
+# Copyright (C) 2021 THE l'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the l package.
+# laurent <lfarhi@sfr.fr>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: l 2d_i18n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-05 13:48+0200\n"
+"PO-Revision-Date: 2021-06-05 23:52+0200\n"
+"Last-Translator: laurent <lfarhi@sfr.fr>\n"
+"Language-Team: Language dk\n"
+"Language: dk_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "token"
+msgstr "polet"
+
+msgid "+"
+msgstr "og"
+
+msgid "0"
+msgstr "nul"
+
+msgid "1"
+msgstr "en;et"
+
+msgid "2"
+msgstr "to"
+
+msgid "3"
+msgstr "tre"
+
+msgid "4"
+msgstr "fire"
+
+msgid "5"
+msgstr "fem"
+
+msgid "6"
+msgstr "seks"
+
+msgid "7"
+msgstr "syv"
+
+msgid "8"
+msgstr "otte"
+
+msgid "9"
+msgstr "ni"
+
+msgid "10"
+msgstr "ti"
+
+msgid "11"
+msgstr "elleve"
+
+msgid "12"
+msgstr "tolv"
+
+msgid "13"
+msgstr "tretten"
+
+msgid "14"
+msgstr "fjorten"
+
+msgid "15"
+msgstr "femten"
+
+msgid "16"
+msgstr "seksten"
+
+msgid "17"
+msgstr "sytten"
+
+msgid "18"
+msgstr "atten"
+
+msgid "19"
+msgstr "nitten"
+
+msgid "20"
+msgstr "tyve"
+
+msgid "30"
+msgstr "tredive"
+
+msgid "40"
+msgstr "fyrre"
+
+msgid "50"
+msgstr "halvtreds"
+
+msgid "60"
+msgstr "tres"
+
+msgid "70"
+msgstr "halvfjerds"
+
+msgid "80"
+msgstr "firs"
+
+msgid "90"
+msgstr "halvfems"
+
+msgid "100"
+msgstr "hundred;hundrede"
+
+msgid "500"
+msgstr ""
+
+msgid "1000"
+msgstr "tusind;tusinde"
+
+msgid "1000000"
+msgstr "million;millioner"
+
+msgid "1000000000"
+msgstr "milliard"
+
+msgid "1000000000000"
+msgstr "billion"
+
+msgid "1000000000000000"
+msgstr "billiard"
+
+msgid "1000000000000000000"
+msgstr "trillion"
+
+msgid "Known tokens are:"
+msgstr "Kendte poletter er:"
+
+msgid "Unknown token:"
+msgstr "Ukendt symbol:"
+
+msgid "Ignored"
+msgstr "Ignoreret"
+
+msgid "Interval"
+msgstr "Interval"

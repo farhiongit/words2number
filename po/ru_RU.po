@@ -1,0 +1,145 @@
+# Russian translations for l package.
+# Copyright (C) 2021 THE l'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the l package.
+# laurent <lfarhi@sfr.fr>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: l 2d_i18n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-05 13:48+0200\n"
+"PO-Revision-Date: 2021-06-06 00:13+0200\n"
+"Last-Translator: laurent <lfarhi@sfr.fr>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "token"
+msgstr ""
+
+msgid "+"
+msgstr ""
+
+msgid "0"
+msgstr "ноль;нуль"
+
+msgid "1"
+msgstr "один"
+
+msgid "2"
+msgstr "две"
+
+msgid "3"
+msgstr "три"
+
+msgid "4"
+msgstr "четыре"
+
+msgid "5"
+msgstr "пять"
+
+msgid "6"
+msgstr "шесть"
+
+msgid "7"
+msgstr "семь"
+
+msgid "8"
+msgstr "восемь"
+
+msgid "9"
+msgstr "девять"
+
+msgid "10"
+msgstr "десять;"
+
+msgid "11"
+msgstr "одиннадцать"
+
+msgid "12"
+msgstr "двенадцать"
+
+msgid "13"
+msgstr "тринадцать"
+
+msgid "14"
+msgstr "четырнадцать"
+
+msgid "15"
+msgstr "пятнадцать"
+
+msgid "16"
+msgstr "шестнадцать"
+
+msgid "17"
+msgstr "семнадцать"
+
+msgid "18"
+msgstr "восемнадцать"
+
+msgid "19"
+msgstr "девятнадцать"
+
+msgid "20"
+msgstr "двадцать"
+
+msgid "30"
+msgstr "тридцать"
+
+msgid "40"
+msgstr "сорок"
+
+msgid "50"
+msgstr "пятьдесят"
+
+msgid "60"
+msgstr "шестьдесят"
+
+msgid "70"
+msgstr "семьдесят"
+
+msgid "80"
+msgstr "восемьдесят"
+
+msgid "90"
+msgstr "девяносто"
+
+msgid "100"
+msgstr "сто;сти;ста;сот"
+
+msgid "500"
+msgstr ""
+
+msgid "1000"
+msgstr "тысяча;тысячи;тысяч"
+
+msgid "1000000"
+msgstr "миллион"
+
+msgid "1000000000"
+msgstr "миллиард"
+
+msgid "1000000000000"
+msgstr "тысячи"
+
+msgid "1000000000000000"
+msgstr ""
+
+msgid "1000000000000000000"
+msgstr ""
+
+msgid "Known tokens are:"
+msgstr ""
+
+msgid "Unknown token:"
+msgstr ""
+
+msgid "Ignored"
+msgstr ""
+
+msgid "Interval"
+msgstr ""

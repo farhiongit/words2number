@@ -15,8 +15,9 @@ Fo instance,
 will all be converted to 13,784,363.
 
 It works for any language that follows decimal rules and grouping by tens, hundreds, thousands, millions and so on.
+See https://www.languagesandnumbers.com/numbering-systems/en/ and http://villemin.gerard.free.fr/Wwwgvmm/Numerati/Langue.htm for a lot more.
 
-To support a specific language, just fill in a `.po` file containing the wording for this language (gettext is used behind the scene):
+To support a specific language, just fill in a `.po` file containing the wording for this language (gettext is used behind the scene) following these steps:
 
   1. add a unit tests block `TU_ll_CC` in `Makefile` (where `ll` is a language code and `CC` is a country code, as listed by `locale -a`),
   2. run `make` (this will result in an error),
@@ -29,6 +30,6 @@ The coding is simple and straight forward (the C language helps for that).
 
 It converts correctly any syntactically correct number.
 
-But it should be noticed that it would also convert uncorrect wording for numbers (folowwing implementation defined specific rules).
+But it should be noticed that it would also convert uncorrect wording for numbers (following implementation defined specific rules).
 
 Have fun and just let me know of any irrelevant results.

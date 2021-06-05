@@ -1,13 +1,19 @@
 
 /*
- * This program converts numbers between 0 and one billion of billions, and correctly written in letters, to digits.
- * It works for french but can be translated for all languages for which numbers are as well expressed in (at most) terms of
- * billions, millions, thousands, hundreds, twenty and unity, in that order from beginning to end.
- * For example, in french, 'huit' yields 8, 'mille neuf cents quatre-vingts deux' yields 1982.
- * The program reads for command-line arguments, and writes the result to standard putput.
- * The converter does not control for correct syntax and grammar of numbers.
- * Conversion of uncorrect numbers is unspecified.
- * See https://www.languagesandnumbers.com/numbering-systems/en/ and http://villemin.gerard.free.fr/Wwwgvmm/Numerati/Langue.htm for a lot more.
+ * Copyright (C) 2021  Laurent FARHI (lfarhi at sfr.fr)
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 #include <stdio.h>
 #include <string.h>

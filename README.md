@@ -1,9 +1,9 @@
 Words to number converter
 =========================
 
-> This program converts words into a number for any Indo-European language.
+**This program converts words into a number for any Indo-European language.**
 
-Fo instance,
+For instance,
 
   - *thirteen million, seven hundred and eighty-four thousand, three hundred and sixty-three*,
   - *treize millions sept cent quatre-vingt-quatre mille trois cent soixante-trois* (in french),
@@ -15,6 +15,8 @@ Fo instance,
   - *trzynaście miliony siedemset osiemdziesiąt cztery tysiące trzysta sześćdziesiąt trzy* (in polish)
 
 will all be converted to 13,784,363.
+
+Type `make` to see examples in action.
 
 It works for any language that follows decimal rules and grouping by tens, hundreds, thousands, millions and so on.
 See https://www.languagesandnumbers.com/numbering-systems/en/ and http://villemin.gerard.free.fr/Wwwgvmm/Numerati/Langue.htm for a lot more.

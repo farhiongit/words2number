@@ -1,0 +1,145 @@
+# Polish translations for l package.
+# Copyright (C) 2021 THE l'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the l package.
+# laurent <lfarhi@sfr.fr>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: l 2d_i18n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-06 09:41+0200\n"
+"PO-Revision-Date: 2021-06-06 09:41+0200\n"
+"Last-Translator: laurent <lfarhi@sfr.fr>\n"
+"Language-Team: Polish\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+msgid "token"
+msgstr "token"
+
+msgid "+"
+msgstr ""
+
+msgid "0"
+msgstr "zero"
+
+msgid "1"
+msgstr "jeden;jedna;jedno"
+
+msgid "2"
+msgstr "dwa;dwie;dwaj;dwóch;dwoje"
+
+msgid "3"
+msgstr "trzy;trzej;trzech;troje"
+
+msgid "4"
+msgstr "cztery;czterej;czterech;czworo"
+
+msgid "5"
+msgstr "pięć;pięcioro"
+
+msgid "6"
+msgstr "sześć;sześcioro"
+
+msgid "7"
+msgstr "siedem"
+
+msgid "8"
+msgstr "osiem"
+
+msgid "9"
+msgstr "dziewięć"
+
+msgid "10"
+msgstr "dziesięć;dziesięcioro"
+
+msgid "11"
+msgstr "jedenaście"
+
+msgid "12"
+msgstr "dwanaście"
+
+msgid "13"
+msgstr "trzynaście"
+
+msgid "14"
+msgstr "czternaście"
+
+msgid "15"
+msgstr "piętnaście"
+
+msgid "16"
+msgstr "szesnaście"
+
+msgid "17"
+msgstr "siedemnaście"
+
+msgid "18"
+msgstr "osiemnaście"
+
+msgid "19"
+msgstr "dziewiętnaście"
+
+msgid "20"
+msgstr "dwadzieścia"
+
+msgid "30"
+msgstr "trzydzieści"
+
+msgid "40"
+msgstr "czterdzieści"
+
+msgid "50"
+msgstr "pięćdziesiąt"
+
+msgid "60"
+msgstr "sześćdziesiąt"
+
+msgid "70"
+msgstr "siedemdziesiąt"
+
+msgid "80"
+msgstr "osiemdziesiąt"
+
+msgid "90"
+msgstr "dziewięćdziesiąt"
+
+msgid "100"
+msgstr "sto;ście;sta;set"
+
+msgid "500"
+msgstr ""
+
+msgid "1000"
+msgstr "tysiąc;tysiące;tysięcy"
+
+msgid "1000000"
+msgstr "milion;miliony"
+
+msgid "1000000000"
+msgstr "miliard;miliardy"
+
+msgid "1000000000000"
+msgstr "bilion;biliony"
+
+msgid "1000000000000000"
+msgstr "biliard;biliardy"
+
+msgid "1000000000000000000"
+msgstr "trylion;tryliony"
+
+msgid "Known tokens are:"
+msgstr "Znane tokeny to:"
+
+msgid "Unknown token:"
+msgstr "Nieznany token:"
+
+msgid "Ignored"
+msgstr "Zignorowano"
+
+msgid "Interval"
+msgstr "Interwał"

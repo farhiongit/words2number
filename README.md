@@ -1,7 +1,7 @@
 Words to number converter
 =========================
 
-> This program converts words into a number for any language.
+> This program converts words into a number for any Indo-European language.
 
 Fo instance,
 
@@ -11,6 +11,8 @@ Fo instance,
   - *dreizehn Millionen siebenhundertvierundachtzigtausenddreihundertdreiundsechzig* (in german),
   - *trece millones setecientos ochenta y cuatro mil trescientos sesenta y tres* (in spanish),
   - *treze milhões setecentos e oitenta e quatro mil trezentos e sessenta e três* (in portuguese)
+  - *тринадцать миллион, семьсот восемьдесят четыре тысячи, триста шестьдесят три* (in russian)
+  - *trzynaście miliony siedemset osiemdziesiąt cztery tysiące trzysta sześćdziesiąt trzy* (in polish)
 
 will all be converted to 13,784,363.
 

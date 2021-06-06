@@ -30,7 +30,6 @@
 // See https://www.labri.fr/perso/fleury/posts/programming/a-quick-gettext-tutorial.html for more.
 #  include <libintl.h>
 #  define PACKAGE "l2d_i18n"
-#  define LOCALEDIR "./po"
 #  define _(String) gettext (String)
 #  define gettext_noop(String) String
 #  define N_(String) gettext_noop (String)
@@ -198,14 +197,15 @@ get_number_from_words (char *const *texts, size_t nb_texts)
   }
   ADD_OPS
 #undef OP
+#ifdef  __USE_GNU_GETTEXT
     // For xgettext purpose only:
-#define OP(N) _(#N);
+#  define OP(N) _(#N);
     while (0)
   {
     _(sAND);
   ADD_OPS}
-#undef OP
-
+#  undef OP
+#endif
   int saved_errno = errno;
   TRACE ("%s ", _("Known tokens are:"));
   for (struct sToken * t = Tokens; t < Tokens + sizeof (Tokens) / sizeof (*Tokens); t++)
@@ -281,7 +281,7 @@ main (int argc, char **argv)
 #endif
 
   // Maximum value is 18 446 744 073 709 551 615 for 64 bits system
-  TRACE ("%s: [%'llu ; %'llu]" eol, _("Interval"), (unsigned long long int) 0, ~((unsigned long long int)0));
+  TRACE ("%s: [%'llu ; %'llu]" eol, _("Interval"), (unsigned long long int) 0, ~((unsigned long long int) 0));
 
   if (argc <= 1)
     return EXIT_FAILURE;

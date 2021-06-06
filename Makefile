@@ -1,10 +1,11 @@
 all : TU
 
 l2d_i18n: CFLAGS=-Wall -Werror
+l2d_i18n: CFLAGS+=-DLOCALEDIR="\"${PWD}/po\""
 
 po/%.pot: %.c
 	@mkdir -p "${@D}"
-	$(CPP) -P "$<" | xgettext --no-location -LC -o "$@" --from-code=UTF-8 -
+	$(CPP) -P "$<" | xgettext --force-po --no-location -LC -o - --from-code=UTF-8 - | sed 's/Content-Type: text\/plain; charset=CHARSET/Content-Type: text\/plain; charset=UTF-8/' > "$@"
 
 .PRECIOUS: po/%.po # Don't delete intermediate files .po
 po/%.po: po/l2d_i18n.pot
@@ -62,5 +63,10 @@ TU_ru_RU: l2d_i18n po/ru_RU/LC_MESSAGES/l2d_i18n.mo
 	LANGUAGE="$(LOCALE)" "./$<" три тысячи, четыреста пятьдесят шесть
 	LANGUAGE="$(LOCALE)" "./$<" тринадцать миллион, семьсот восемьдесят четыре тысячи, триста шестьдесят три  # 13784363
 
-TU: TU_fr_FR TU_it_IT TU_de_DE TU_en_GB TU_es_ES TU_pt_PT TU_dk_DK TU_ru_RU
+TU_pl_PL: LOCALE=pl_PL
+TU_pl_PL: l2d_i18n po/pl_PL/LC_MESSAGES/l2d_i18n.mo
+	LANGUAGE="$(LOCALE)" "./$<" trzynaście miliony siedemset osiemdziesiąt cztery tysiące trzysta sześćdziesiąt trzy
+
+
+TU: TU_fr_FR TU_it_IT TU_de_DE TU_en_GB TU_es_ES TU_pt_PT TU_dk_DK TU_ru_RU TU_pl_PL
 

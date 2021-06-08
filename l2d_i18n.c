@@ -59,6 +59,10 @@ enum eToken
   IGNORED = -3, AND = -2, UNDEF = -1,
 };
 
+// Checking unsigned integer overflow for + and *
+#define UMAX(n) (~((n)-(n)))    // Maximum value for the type of 'n'
+#define UUADD(a,b) ((a) > UMAX(b) - (b) ? ((errno = EINVAL), 0) : ((a) + (b)))
+#define UUMUL(a,b) (((b) == 0) ? 0 : (a) > UMAX(b) / (b) ? ((errno = EINVAL), 0) : ((a) * (b)))
 static unsigned long long int
 convert_to_number (unsigned long long int multiplier, signed long long int *tokens, size_t nb_tokens,
                    size_t first_included, size_t last_excluded, size_t depth)
@@ -94,7 +98,8 @@ convert_to_number (unsigned long long int multiplier, signed long long int *toke
       {                         // We leave a multiplicative group
         unsigned long long int subgroup =
           convert_to_number (current_multiplier, tokens, nb_tokens, first_index + 1, current_index + 1, depth + 1);
-        ret += multiplier * subgroup;
+        unsigned long long int sg = UUMUL (multiplier, subgroup);
+        ret = UUADD (ret, sg);  // Decompose UUMUL and UUADD to avoid violation of sequence point on errno.
         TRACE ("%zi: + %'llu * (%'llu * %s[%zi,%zi] = %'llu)" eol, depth, multiplier, current_multiplier, _("token"),
                nb_tokens - current_index - 1, nb_tokens - 2 - first_index, subgroup);
 
@@ -105,7 +110,8 @@ convert_to_number (unsigned long long int multiplier, signed long long int *toke
     else if (read_token >= 0)
     {                           // We are not in a multiplicative group
       assert (current_multiplier == 1);
-      ret += multiplier * (unsigned long long int) read_token;
+      unsigned long long int sg = UUMUL (multiplier, (unsigned long long int) read_token);
+      ret = UUADD (ret, sg);    // Decompose UUMUL and UUADD to avoid violation of sequence point on errno.
       TRACE ("%zi: + %'llu * 1 * %'lli" eol, depth, multiplier, read_token);
     }
   }                             // end for (size_t current_index = first_included; current_index < last_excluded; current_index++)
@@ -263,11 +269,15 @@ get_number_from_words (char *const *texts, size_t nb_texts)
     free (wctext);
   }                             // end for (size_t itext = 0; itext < nb_texts; itext++)
 
+  errno = 0;
   unsigned long int number = get_number_from_tokens (tokens, nb_tokens);
+  if (errno)
+    number = 0;
+  else
+    errno = saved_errno;        // in case errno was modified somewhere but not intercepted.
 
   free (tokens);
 
-  errno = saved_errno;          // in case errno was modified somewhere but not intercepted.
   return number;
 }
 

@@ -3,6 +3,9 @@ Words to number converter
 
 **This program converts words into a number for any Indo-European language.**
 
+It works for any language that follows decimal rules and grouping by tens, hundreds, thousands, millions and so on.
+See https://www.languagesandnumbers.com/numbering-systems/en/ and http://villemin.gerard.free.fr/Wwwgvmm/Numerati/Langue.htm for a lot more.
+
 For instance,
 
   - *thirteen million, seven hundred and eighty-four thousand, three hundred and sixty-three*,
@@ -16,10 +19,15 @@ For instance,
 
 will all be converted to 13,784,363.
 
-Type `make` to see examples in action.
+Type `make` to see those examples in action.
 
-It works for any language that follows decimal rules and grouping by tens, hundreds, thousands, millions and so on.
-See https://www.languagesandnumbers.com/numbering-systems/en/ and http://villemin.gerard.free.fr/Wwwgvmm/Numerati/Langue.htm for a lot more.
+Then, try:
+
+```
+> LANGUAGE=fr_FR ./l2d_i18n cent quatre-vingt trois
+> LANGUAGE=it_IT ./l2d_i18n centottantatré
+> LANGUAGE=de_DE ./l2d_i18n hundertdreiundachtzig
+```
 
 To support a specific language, just fill in a `.po` file containing the wording for this language (gettext is used behind the scene) following these steps:
 

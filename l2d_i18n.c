@@ -300,7 +300,10 @@ main (int argc, char **argv)
     errno = 0;
     unsigned long long int number = get_number_from_words (argv + 1, argc - 1);
     if (errno)
+    {
+      fprintf (stderr, "%s\n", _("Integer overflow error."));
       return EXIT_FAILURE;
+    }
     fprintf (stdout, "%'llu" eol, number);
     return EXIT_SUCCESS;
   }

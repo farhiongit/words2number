@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 21:10+0200\n"
+"POT-Creation-Date: 2021-06-08 12:46+0200\n"
 "PO-Revision-Date: 2021-05-29 12:25+0200\n"
 "Last-Translator: laurent <lfarhi@sfr.fr>\n"
 "Language-Team: French\n"
@@ -124,13 +124,13 @@ msgid "1000000000"
 msgstr "milliard;milliards"
 
 msgid "1000000000000"
-msgstr ""
+msgstr "billion;billions"
 
 msgid "1000000000000000"
-msgstr ""
+msgstr "billiard;billiards"
 
 msgid "1000000000000000000"
-msgstr ""
+msgstr "trillion;trillions"
 
 msgid "Known tokens are:"
 msgstr "Les mots reconnus sont :"
@@ -143,3 +143,6 @@ msgstr "Ignoré"
 
 msgid "Interval"
 msgstr "Intervalle"
+
+msgid "Integer overflow error."
+msgstr "Erreur (nombre trop grand)."

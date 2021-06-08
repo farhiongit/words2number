@@ -35,6 +35,7 @@ TU_en_GB: LOCALE=en_GB
 TU_en_GB: l2d_i18n po/en_GB/LC_MESSAGES/l2d_i18n.mo
 	LANGUAGE="$(LOCALE)" "./$<" seven thousand two hundred and four
 	LANGUAGE="$(LOCALE)" "./$<" thirteen million, seven hundred and eighty-four thousand, three hundred and sixty-three  # 13784363
+	LANGUAGE="$(LOCALE)" "./$<" one billion trillion || :
 
 TU_de_DE: LOCALE=de_DE
 TU_de_DE: l2d_i18n po/de_DE/LC_MESSAGES/l2d_i18n.mo
